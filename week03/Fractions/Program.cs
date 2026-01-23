@@ -23,9 +23,10 @@ class Program
         Console.WriteLine(f4.GetFractionString());
         Console.WriteLine(f4.GetDecimalValue());
 
-        // Testing 
-        f4.SetNumerator(2);
-        f4.SetDenominator(5);
+        
+        // Testing another way to set numerator and denominator 
+        f4.SetNumerator(4);
+        f4.SetDenominator(2);
         Console.WriteLine(f4.GetFractionString());
         Console.WriteLine(f4.GetDecimalValue());
     }
